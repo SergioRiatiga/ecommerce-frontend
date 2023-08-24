@@ -1,0 +1,13 @@
+.categories__name{
+  color: var(--dark-gray);
+  border-bottom: 1px solid var(--gray);
+  padding: 1em 0;
+}
+.categories__list{
+  margin-top: 1em;
+}
+.categories__item{
+  cursor: pointer;
+  color: var(--dark-gray);
+  padding-bottom: 0.3em;
+}

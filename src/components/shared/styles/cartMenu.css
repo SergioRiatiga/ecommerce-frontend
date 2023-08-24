@@ -1,0 +1,59 @@
+.menuShop::-webkit-scrollbar {
+  width: 0.4em;
+  height: 0.4em;
+}
+.menuShop::-webkit-scrollbar-thumb {
+  background: #00000020;
+  border-radius: 1em;
+}
+.menuShop::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 1em;
+}
+.menuShop {
+  width: 300px;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white);
+  padding: 1em;
+  padding-top: 0.5em;
+  margin-top: 4.3em;
+  overflow: auto;
+  transition: right 900ms ease;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 4px ;
+}
+.menuShop__close {
+  right: -120%;
+}
+.cartMenu__title{
+  padding: 1em 0;
+  color: var(--dark-gray);
+}
+.cartMenu__footer{
+  border-top: 1px solid var(--gray);
+  margin-top: 1em;
+  padding: 1.5em 0;
+}
+.cartMenu__totalPrice{
+  display: flex;
+  justify-content: space-between;
+}
+.cartMenu__totalPrice__label{
+  color: var(--gray);
+  font-size: 1.1em;
+}
+.cartMenu__totalPrice__value{
+  color: var(--dark-gray);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.cartMenu__btn{
+  margin-top: 1em;
+  width: 100%;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 0.7em 0;
+  font-size: 1rem;
+}

@@ -1,0 +1,48 @@
+.cart{
+  margin-bottom: 2em;
+}
+.cart__section{
+  display: flex;
+}
+.cart__header{
+  width: 30%;
+  margin-right: 0.5em;
+  display: flex;
+}
+.cart__img{ 
+  object-fit: contain;
+}
+.cart__namePrice{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+}
+.cart__name{ 
+  color: var(--dark-gray);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.cart__p{ 
+  color: var(--dark-gray);
+  font-weight: bold;
+  margin-top: 1em;
+}
+.cart__btn{ 
+  background-color: var(--white);
+  color: var(--red);
+  font-size: 1.2rem;
+}
+.cart__footer{ 
+  display: flex;
+  justify-content: right;
+  margin-top: 1em;
+  gap: 2em;
+}
+.cart__total__label{ 
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+.cart__total__price{
+  color: var(--dark-gray);
+  font-weight: bold;
+}

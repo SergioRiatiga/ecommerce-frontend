@@ -1,0 +1,22 @@
+.card{
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+.card__img{
+  width: 80px;
+  object-fit: contain;
+}
+.card__name{
+  color: var(--dark-gray);
+  font-size: 0.8rem;
+}
+.card__quantityPrice{
+  color: var(--dark-gray);
+  display: flex;
+  gap: 0.3em;
+}

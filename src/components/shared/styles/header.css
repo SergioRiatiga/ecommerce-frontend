@@ -1,0 +1,33 @@
+.header__container{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: var(--white);
+  z-index: 10;
+  padding: 1em;
+  padding-right: 2em;
+}
+.header__container__logo{
+  color: var(--red);
+  font-size: 1.6rem;
+}
+.header__container__list{
+  padding-top: 0.3em;
+  display: flex;
+  gap: 2em;
+}
+.header__container__item{
+  color: var(--gray);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+@media (  min-width: 950px) {
+  .header__container{
+    border-bottom: 1px solid var(--gray);
+  }
+  .header__container__list{
+    gap: 7em;
+  }
+}
